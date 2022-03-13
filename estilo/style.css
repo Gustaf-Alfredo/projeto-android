@@ -26,6 +26,10 @@
     --fonte-android: 'Android', cursive;
 } 
 
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
